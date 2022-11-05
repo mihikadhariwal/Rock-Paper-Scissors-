@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button{
+    width: 220px;
+    padding: 1rem;
+    margin: 1rem; 
+    font-size: 9rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 15px whitesmoke;
+    border: none;
+}
+
+button:hover{
+    background-color: rgb(212, 205, 205);
+}
+
+.stop{
+   position: relative;
+   left: 268px;
+   margin: 0;
+}
+
+p{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.spacing{
+    margin: 0 10px;
+}
